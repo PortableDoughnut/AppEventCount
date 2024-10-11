@@ -35,9 +35,9 @@ class ViewController: UIViewController {
 		willConnectToLabel.text = "App will connect to \(willConnectToCount) times"
 		configurationForConnectingLabel.text = "App configuration for connecting \(appDelegate.configurationForConnectingCount) times"
 		sceneDidBecomeActiveLabel.text = "App became active \(didBecomeActiveCount) times"
-		willResignActiveLabel.text = "App will resign active \(willResignActiveCount) times"
+		willResignActiveLabel.text = "App resigned active \(willResignActiveCount) times"
 		didEnterBackgroundLabel.text = "App entered background \(didEnterBackgroundCount) times"
-		willEnterForegroundLabel.text = "App will enter foreground \(willEnterForegroundCount) times"
+		willEnterForegroundLabel.text = "App entered foreground \(willEnterForegroundCount) times"
 	}
 	
 }
